@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Jupyter notebook execution metadata
+*.nbconvert.ipynb
+
+# Local environment files
+.env
+.env.*
